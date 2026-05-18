@@ -1,7 +1,6 @@
 ## Pseudo Code - (This is Prefix and Suffix Maximum)
-
-### Algorithm trap(height):
 ```text
+Algorithm trap(height):
 	Input: array of int height
 	Output: trapped water
 	
@@ -40,9 +39,8 @@
 ```
 
 ## Pseudo Code - Dynamically update prefix, suffix
-
-### Algorithm trap(height):
 ```text
+Algorithm trap(height):
 	Input: array of int height
 	Output: trapped water
 	
