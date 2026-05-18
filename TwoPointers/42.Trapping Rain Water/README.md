@@ -1,4 +1,4 @@
-#Pseudo Code - (This is Prefix and Suffix Sum)
+# Pseudo Code - (This is Prefix and Suffix Sum)
 
 Algorithm trap(height):
 	Input: array of int height
