@@ -1,7 +1,7 @@
-## Pseudo Code - (This is Prefix and Suffix Sum)
+## Pseudo Code - (This is Prefix and Suffix Maximum)
 
 ### Algorithm trap(height):
-'''text
+```text
 	Input: array of int height
 	Output: trapped water
 	
@@ -29,20 +29,20 @@
 		ans <- ans + (min(maxLeft[i], maxRight[i]) - height[i])
 	
 	return ans
-'''
+```
 ### Complexity Analysis:
-'''text
+```text
 	Time complexity: 
 		Build Prefix/Suffix Sum: O(2n)
 		Calculation: O(n)
 	Space complexity:
 		Prefix/Suffix Sum: O(2n)
-'''
+```
 
 ## Pseudo Code - Dynamically update prefix, suffix
 
 ### Algorithm trap(height):
-'''text
+```text
 	Input: array of int height
 	Output: trapped water
 	
@@ -70,14 +70,14 @@
 			right <- right - 1
 	
 	return ans
-'''
+```
 
 ### Complexity Analysis:
-'''text
+```text
 	Time complexity: O(n)
 	Space complexity: O(1)
-'''
+```
 
 ### Note
-1. Dynamic programming with prefix and suffix sum array
+1. Dynamic programming with prefix and suffix maximum array
 2. Save the space by dynamically update the variables
